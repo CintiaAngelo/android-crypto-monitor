@@ -189,8 +189,8 @@ object MercadoBitcoinServiceFactory {
 
 ### 📉 Antes de Atualizar a Cotação
 Ao iniciar o aplicativo, antes da chamada da API ser feita, os campos de valor e data da cotação ainda estão vazios ou com valores padrão. Isso ocorre porque a função makeRestCall() só é chamada ao clicar no botão "Atualizar".
-
 ![Cotação zerada](btc1.png)
+
 
 ### 📈 Após Atualizar a Cotação
 Ao clicar no botão de atualização (btn_refresh), a função makeRestCall() é executada. A partir disso, a API responde com a cotação e a data, que são formatadas e exibidas na interface:
